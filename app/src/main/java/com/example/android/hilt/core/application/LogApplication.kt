@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.hilt
+package com.example.android.hilt.core.application
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

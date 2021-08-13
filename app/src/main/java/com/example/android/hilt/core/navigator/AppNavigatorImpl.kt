@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.hilt.navigator
+package com.example.android.hilt.core.navigator
 
 import androidx.fragment.app.FragmentActivity
 import com.example.android.hilt.R

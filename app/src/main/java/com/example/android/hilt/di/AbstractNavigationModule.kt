@@ -1,7 +1,7 @@
 package com.example.android.hilt.di
 
-import com.example.android.hilt.navigator.AppNavigator
-import com.example.android.hilt.navigator.AppNavigatorImpl
+import com.example.android.hilt.core.navigator.AppNavigator
+import com.example.android.hilt.core.navigator.AppNavigatorImpl
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
