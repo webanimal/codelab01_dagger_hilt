@@ -24,7 +24,6 @@ import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.espresso.matcher.ViewMatchers.withText
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import androidx.test.platform.app.InstrumentationRegistry.getInstrumentation
 import com.example.android.hilt.ui.MainActivity
 import org.hamcrest.Matchers.containsString
 import org.junit.After
@@ -36,8 +35,6 @@ class AppTest {
 
     @After
     fun tearDown() {
-        // Remove logs after the test finishes
-        ServiceLocator(getInstrumentation().targetContext).loggerLocalDataSource.removeLogs()
     }
 
     @Test
